@@ -10,7 +10,7 @@ const NoticiasProvider = ({children}) => {
     const [pagina, setPagina] = useState(1);
     const [totalNoticias, setTotalNoticias] = useState(0);
 
-    // Cambio de categoría
+    // Cambio de categoría (página 1 por defecto)
     useEffect(() => {
 
         const consultarAPI = async () => {
